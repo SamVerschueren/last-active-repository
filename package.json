@@ -1,6 +1,6 @@
 {
   "name": "last-active-repository",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Retrieve a user's last active GitHub repository.",
   "license": "MIT",
   "repository": "SamVerschueren/last-active-repository",
