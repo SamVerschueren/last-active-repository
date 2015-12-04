@@ -1,0 +1,42 @@
+{
+  "name": "last-active-repository",
+  "version": "0.0.0",
+  "description": "Retrieve a user's last active GitHub repository.",
+  "license": "MIT",
+  "repository": "SamVerschueren/last-active-repository",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "github",
+    "repository",
+    "active",
+    "repo",
+    "user",
+    "push"
+  ],
+  "dependencies": {
+    "gh-got": "^2.3.0",
+    "pinkie-promise": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
